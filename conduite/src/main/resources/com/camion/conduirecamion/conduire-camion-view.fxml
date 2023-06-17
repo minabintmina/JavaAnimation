@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.conduite.ConduireCamionController">
+   <top>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c5705" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141313" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c5705" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141313" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c5705" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141313" height="104.0" strokeType="INSIDE" width="146.0" />
+         </children>
+      </HBox>
+   </top>
+   <bottom>
+      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c5705" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141313" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c5705" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141313" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0c5705" height="104.0" strokeType="INSIDE" width="146.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#141313" height="104.0" strokeType="INSIDE" width="146.0" />
+         </children>
+      </HBox>
+   </bottom>
+   <center>
+      <AnchorPane fx:id="pRoute" prefHeight="590.0" prefWidth="833.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="imgCamion" layoutX="418.0" layoutY="18.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/camion3.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+   <left>
+      <VBox prefHeight="292.0" prefWidth="57.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/haut.png" />
+               </image>
+            </ImageView>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/bas.png" />
+               </image>
+            </ImageView>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/droite.png" />
+               </image>
+            </ImageView>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/gauche.png" />
+               </image>
+            </ImageView>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/R.png" />
+               </image>
+            </ImageView>
+            <ImageView pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/T.png" />
+               </image>
+            </ImageView>
+         </children>
+      </VBox>
+   </left>
+</BorderPane>
